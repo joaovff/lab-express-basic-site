@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: Secular One;
+}
+
+ul,
+li {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navItems {
+    font-size: 25px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+
+h2 {
+    padding-top: 25px;
+    font-size: 50px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 500px;
+}
+.himLeft {
+    font-size: 25px;
+    text-align: center;
+    border-right: 1px solid black;
+    width: 50%;
+    padding-right: 35px;
+
+
+}
+
+.himRight {
+    padding-left: 35px;
+    font-size: 25px;
+    text-align: center;
+    width: 50%;
+
+}
+
+.whoIsNey {
+    height: 750px;
+    background-size: cover;
+
+}
+
+.playersAbout {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    background-color: #edcb68 ;
+    color: whitesmoke;
+   
+}
+
+.aboutHim {   
+    height: 250px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.who {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.opinions {
+    color: #000000;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.ylw {
+    font-size: 25px;
+    color: #edcb68;
+}

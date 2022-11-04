@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: Secular One;
+}
+
+ul,
+li {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+.navItems {
+    font-size: 25px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+
+.bg {
+    margin-left: 1.5%;
+    width: 97%;
+    background-image: url(/images/neybg.jpg);
+    height: 720px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.laLiga,
+.ligueOne,
+.champions {
+    height: 400px;
+    width: 300px;
+}
+
+.laLiga {
+    background-image: url(/images/laliga.jpg);
+    background-size: 135%;
+    background-position-x: 50% ;
+    background-repeat: no-repeat;
+}
+
+.ligueOne {
+    background-image: url(/images/ligue1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.champions {
+    background-image: url(/images/champions.png);
+    background-size: 215%;
+    background-position-x: 50% ;
+    background-position-y: 50% ;
+    background-repeat: no-repeat;
+
+}
+
+.statistics {
+    margin-top: -80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.sts{
+    font-size: 25px;
+}
+
+h3 {
+    padding-top: 25px;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 1px 5px #e9d2077a;
+}
+
+.ylw {
+    font-size: 25px;
+    color: #edcb68;
+}
